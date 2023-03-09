@@ -148,7 +148,7 @@ if(!isset($user_id)){
 
 <section class="authors">
 
-   <h1 class="title">Transporte</h1>
+   <h1 class="title">Transporte & Logística</h1>
 
    <div class="box-container">
 
@@ -161,63 +161,31 @@ if(!isset($user_id)){
             <a href="reconquista@pulquipacksrl.com.ar" class="fa-sharp fa-solid fa-envelope-open-text"></a>
 
          </div>
-         <h3>PULQUI PACK</h3>
+         <h3>Pulqui Pack</h3>
       </div>
 
       <div class="box">
          <img src="images/author-2.jpg" alt="">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.facebook.com/transportedelvallesrl/?locale=es_LA" class="fab fa-facebook-f"></a>
+            <a href="https://www.google.com/maps/search/Atuel+647+-+CP+1437+Parque+Patricios,+CABA/@-34.6451334,-58.4091984,17z/data=!3m1!4b1?hl=es" class="fa-solid fa-location-dot"></a>
+            <a href="https://www.instagram.com/transportevalle/?hl=es" class="fab fa-instagram"></a>
+            <a href="transportedelvalle@transportedelvalle.com.ar" class="fa-sharp fa-solid fa-envelope-open-text"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Transporte del Valle</h3>
       </div>
 
       <div class="box">
          <img src="images/author-3.jpg" alt="">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+         <a href="https://www.facebook.com/credifinlogisticaok/" class="fab fa-facebook-f"></a>
+            <a href="https://www.google.com/maps/place/Av.+25+de+Mayo+2588,+Resistencia,+Chaco/@-27.4317389,-59.0131447,17z/data=!3m1!4b1!4m6!3m5!1s0x94450c74d1020483:0x23b7315d9319fc19!8m2!3d-27.431739!4d-59.0089175!16s%2Fg%2F11sxx55rqy?hl=es" class="fa-solid fa-location-dot"></a>
+            <a href="https://www.instagram.com/credifinlogistica/" class="fab fa-instagram"></a>
+            <a href="atención@credifinexpress.com.ar" class="fa-sharp fa-solid fa-envelope-open-text"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Credifin</h3>
       </div>
 
-      <div class="box">
-         <img src="images/author-4.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/author-5.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/author-6.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>john deo</h3>
-      </div>
 
    </div>
 

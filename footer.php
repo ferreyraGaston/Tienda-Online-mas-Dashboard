@@ -36,6 +36,6 @@
 
    </div>
 
-   <p class="credit"> &copy; copyright  @ <?php echo date('Y'); ?> Por <span>Ferreyra Gastón. diseñador Web</span> </p>
+   <p class="credit">  Copyright &copy; 2023. All Rights Reserved. Designed <?php echo date('Y'); ?> by <span>Ferreyra Gastón.</span> </p>
 
 </section>
