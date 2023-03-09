@@ -148,19 +148,20 @@ if(!isset($user_id)){
 
 <section class="authors">
 
-   <h1 class="title">Marcas con las que trabajamos</h1>
+   <h1 class="title">Transporte</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/author-1.jpg" alt="">
+         <img src="images/author-1.png" alt="">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.facebook.com/PulquiPack/" class="fab fa-facebook-f"></a>
+            <a href="https://api.whatsapp.com/send/?phone=54 3482487318&text&type=phone_number&app_absent=0" class="fa-brands fa-whatsapp"></a>
+            <a href="https://www.google.com/maps/place/Blvd.+Juan+Domingo+Per%C3%B3n+2260,+S3560+Reconquista,+Santa+Fe/@-29.153361,-59.6678719,17z/data=!3m1!4b1!4m6!3m5!1s0x944eb072e66c7da5:0x62e8c905ae3878ce!8m2!3d-29.1533657!4d-59.6656832!16s%2Fg%2F11s_vk86rv?hl=es" class="fa-solid fa-location-dot"></a>
+            <a href="reconquista@pulquipacksrl.com.ar" class="fa-sharp fa-solid fa-envelope-open-text"></a>
+
          </div>
-         <h3>john deo</h3>
+         <h3>PULQUI PACK</h3>
       </div>
 
       <div class="box">

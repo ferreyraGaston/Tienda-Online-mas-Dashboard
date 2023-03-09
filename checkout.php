@@ -114,7 +114,7 @@ if(isset($_POST['order_btn'])){
             <input type="email" name="email" required placeholder="enter your email">
          </div>
          <div class="inputBox">
-            <span>   payment method :</span>
+            <span>   método de pago :</span>
             <select name="method">
                <option value="cash on delivery">contra reembolso</option>
                <option value="credit card">tarjeta de crédito</option>
