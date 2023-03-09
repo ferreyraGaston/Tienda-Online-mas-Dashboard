@@ -13,7 +13,7 @@ if(isset($message)){
 
 <header class="header">
 
-   <div class="flex">
+   <div class="flex container">
 
       <a href="admin_page.php" class="logo">Administrador<span>Panel</span></a>
 
@@ -34,7 +34,7 @@ if(isset($message)){
          <p>nombre de usuario : <span><?php echo $_SESSION['admin_name']; ?></span></p>
          <p>email : <span><?php echo $_SESSION['admin_email']; ?></span></p>
          <a href="logout.php" class="delete-btn">cerrar sesión</a>
-         <div>nnuevo <a href="login.php">acceso</a> | <a href="register.php">registrarse</a></div>
+         <div>nuevo <a href="login.php">acceso</a> | <a href="register.php">registrarse</a></div>
       </div>
 
    </div>

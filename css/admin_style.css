@@ -145,26 +145,47 @@ section{
 }
 
 .header{
-   position: sticky;
+/*    position: sticky;
    top:0; left:0; right:0;
    z-index: 1000;
    background-color: var(--white);
-   box-shadow: var(--box-shadow);
+   box-shadow: var(--box-shadow); */
+
+   background-image: url(../images/hero.svg);
+   background-position: center bottom;
+   background-repeat: no-repeat; /* hace que la imagen no se repita */
+   background-size: cover;
+   min-height: 80vh;
+   display: flex;
+   align-items: center;
+}
+.container{
+   max-width: 1100px;
+   margin: 0 auto;
 }
 
 .header .flex{
-   display: flex;
+/*    display: flex;
    align-items: center;
    padding:2rem;
    justify-content: space-between;
    position: relative;
    max-width: 1200px;
    margin:0 auto;
+ */
+   position: absolute;
+   top: 10px;
+   left: 0;
+   right: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 1000;
 }
- 
+
 .header .flex .logo{
    font-size: 2.5rem;
-   color:var(--black);
+   color:var(--light-bg);
 }
 
 .header .flex .logo span{
@@ -174,7 +195,7 @@ section{
 .header .flex .navbar a{
    margin:0 1rem;
    font-size: 2rem;
-   color:var(--black);
+   color:var(--light-bg);
 }
 
 .header .flex .navbar a:hover{
@@ -185,7 +206,7 @@ section{
    margin-left: 1.5rem;
    font-size: 2.5rem;
    cursor: pointer;
-   color:var(--black);
+   color:var(--light-bg);
 }
 
 .header .flex .icons div:hover{
@@ -195,13 +216,14 @@ section{
 .header .flex .account-box{
    position: absolute;
    top:120%; right:2rem;
-   width: 30rem;
+   width: 25rem;
+   height: 15rem;
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
    padding:2rem;
    text-align: center;
    border-radius: .5rem;
-   border:var(--border);
+  /*  border:var(--border); */
    background-color: var(--white);
    display: none;
    animation:fadeIn .2s linear;
@@ -212,9 +234,10 @@ section{
 }
 
 .header .flex .account-box p{
-   font-size: 2rem;
+   text-align: left;
+   font-size: 1.2rem;
    color:var(--light-color);
-   margin-bottom: 1.5rem;
+   margin-bottom: 1rem;
 }
 
 .header .flex .account-box p span{
@@ -223,11 +246,12 @@ section{
 
 .header .flex .account-box .delete-btn{
    margin-top: 0;
+   font-size: 1.2rem;
 }
 
 .header .flex .account-box div{
    margin-top: 1.5rem;
-   font-size: 2rem;
+   font-size: 1.5rem;
    color:var(--light-color);
 }
 
@@ -237,7 +261,7 @@ section{
 
 .header .flex .account-box div a:hover{
    text-decoration: underline;
-}
+} 
 
 #menu-btn{
    display: none;
@@ -275,14 +299,17 @@ section{
    border-radius: .5rem;
    border:var(--border);
 }
+.add-products{
+   margin-top: -450px;  /* para que quede arriba y en el centro la imagen */
+}
 
 .add-products form{
    background-color: var(--white);
-   border-radius: .5rem;
+   border-radius: .7rem;
    padding:2rem;
    text-align: center;
    box-shadow: var(--box-shadow);
-   border:var(--border);
+   /* border:var(--border); */
    max-width: 50rem;
    margin:0 auto;
 }
@@ -290,19 +317,19 @@ section{
 .add-products form h3{
    font-size: 2.5rem;
    text-transform: uppercase;
-   color:var(--black);
+   color:var(--purple);
    margin-bottom: 1.5rem;
 }
 
 .add-products form .box{
    width: 100%;
    background-color: var(--light-bg);
-   border-radius: .5rem;
+   border-radius: .7rem;
    margin:1rem 0;
    padding:1.2rem 1.4rem;
    color:var(--black);
    font-size: 1.8rem;
-   border:var(--border);
+  /*  border:var(--border); */
 }
 
 .show-products .box-container{

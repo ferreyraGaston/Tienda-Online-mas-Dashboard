@@ -105,10 +105,10 @@ if(isset($_POST['update_product'])){
 
    <form action="" method="post" enctype="multipart/form-data">
       <h3>Agregar producto</h3>
-      <input type="text" name="name" class="box" placeholder="enter product name" required>
-      <input type="number" min="0" name="price" class="box" placeholder="enter product price" required>
+      <input type="text" name="name" class="box" placeholder="Nombre del producto" required>
+      <input type="number" min="0" name="price" class="box" placeholder="Precio del producto" required>
       <input type="file" name="image" accept="image/jpg, image/jpeg, image/png" class="box" required>
-      <input type="submit" value="add product" name="add_product" class="btn">
+      <input type="submit" value="aGREGAR pRODUCTO" name="add_product" class="btn">
    </form>
 
 </section>
@@ -130,8 +130,8 @@ if(isset($_POST['update_product'])){
          <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
-         <a href="admin_products.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">update</a>
-         <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('delete this product?');">delete</a>
+         <a href="admin_products.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">Actualizar</a>
+         <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('eliminar este producto?');">Eliminar</a>
       </div>
       <?php
          }
