@@ -32,7 +32,7 @@
 ### Tienda Online " Tienda "
 --- 
 
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada3.JPG)
+![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen3.JPG)
 
 --- 
 <br>
