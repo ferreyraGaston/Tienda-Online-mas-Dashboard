@@ -1,10 +1,14 @@
-# Desktop
+# Dasvoars y Sistema de Centas Online
+
+## HF Distribuidora
+
+
 
 
 
 ## Imagen-1         
 
-### Presentacion " Desktop "
+### Tienda Online " Inicio "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada1.JPG)
@@ -15,7 +19,7 @@
 ## Imagen-2    
 
 
-### Servicio " Desktop "
+### Tienda Online " Acerca de "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada2.JPG)
@@ -25,7 +29,7 @@
 
 ## Imagen-3         
 
-### Portafolio " Desktop "
+### Tienda Online " Tienda "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada3.JPG)
@@ -35,7 +39,7 @@
 
 ## Imagen-4         
 
-### Pie de pagina " Desktop "
+### Tienda Online " Contacto "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada4.JPG)
@@ -43,46 +47,22 @@
 --- 
 <br>
 
-# Mobile
+## Imagen-5         
 
-
-## Imagen-1         
-
-### Presentacion " Mobile "
+### Tienda Online " Pedidos "
 --- 
 
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada1.JPG)
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada4.JPG)
 
 --- 
 <br>
 
-## Imagen-2         
+## Imagen-6         
 
-### Servicio " Mobile "
+### Tienda Online " Carrito "
 --- 
 
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada2.JPG)
-
---- 
-<br>
-
-## Imagen-3         
-
-### Portafolio " Mobile "
---- 
-
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada3.JPG)
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada4.JPG)
-
---- 
-<br>
-
-## Imagen-4         
-
-### Pie de pagina " Mobile "
---- 
-
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada5.JPG)
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada4.JPG)
 
 --- 
 <br>

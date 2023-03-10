@@ -22,7 +22,7 @@ if(isset($_POST['add_product'])){
    $select_product_name = mysqli_query($conn, "SELECT name FROM `products` WHERE name = '$name'") or die('query failed');
 
    if(mysqli_num_rows($select_product_name) > 0){
-      $message[] = 'product name already added';
+      $message[] = 'nombre del producto ya agregado';
    }else{
       $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, price, image) VALUES('$name', '$price', '$image')") or die('query failed');
 
@@ -31,10 +31,10 @@ if(isset($_POST['add_product'])){
             $message[] = 'image size is too large';
          }else{
             move_uploaded_file($image_tmp_name, $image_folder);
-            $message[] = 'product added successfully!';
+            $message[] = 'producto añadido con éxito!';
          }
       }else{
-         $message[] = 'product could not be added!';
+         $message[] = '¡No se pudo agregar el producto!';
       }
    }
 }
@@ -107,7 +107,7 @@ if(isset($_POST['update_product'])){
       <h3>Agregar producto</h3>
       <input type="text" name="name" class="box" placeholder="Nombre del producto" required>
       <input type="number" min="0" name="price" class="box" placeholder="Precio del producto" required>
-      <input type="file" name="image" accept="image/jpg, image/jpeg, image/png" class="box" required>
+      <input type="file" name="image" accept="image/jpg, image/jpeg, image/png, image/webp" class="box" required>
       <input type="submit" value="aGREGAR pRODUCTO" name="add_product" class="btn">
    </form>
 
