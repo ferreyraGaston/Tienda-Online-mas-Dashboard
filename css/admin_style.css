@@ -619,6 +619,11 @@ section{
    html{
       font-size: 55%;
    }
+   
+   .header .flex{
+      margin: 0 5rem;
+   }
+
    .orders{
       margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
    }
@@ -669,6 +674,10 @@ section{
 
    #menu-btn{
       display: inline-block;
+   }
+
+   .header .flex{
+      margin: 0 5rem;
    }
 
    .header .flex .navbar{
@@ -736,6 +745,10 @@ section{
 
    html{
       font-size: 50%;
+   }
+
+   .header .flex{
+      margin: 0 5rem;
    }
 
    .title{
