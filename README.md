@@ -45,6 +45,7 @@
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada4.JPG)
 
 --- 
+
 <br>
 
 ## Imagen-5         
@@ -63,6 +64,7 @@
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada4.JPG)
+
 
 --- 
 <br>
