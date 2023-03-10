@@ -51,7 +51,7 @@ if(!isset($admin_id)){
             };
          ?>
          <h3>$<?php echo $total_pendings; ?>/-</h3>
-         <p>total pendings</p>
+         <p>pendientes totales</p>
       </div>
 
       <div class="box">

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root{
-   --purple:#8e44ad;
+   --purple:#0EAEF3;
    --red:#c0392b;
    --orange:#f39c12;
    --black:#333;
@@ -165,14 +165,6 @@ section{
 }
 
 .header .flex{
-/*    display: flex;
-   align-items: center;
-   padding:2rem;
-   justify-content: space-between;
-   position: relative;
-   max-width: 1200px;
-   margin:0 auto;
- */
    position: absolute;
    top: 10px;
    left: 0;
@@ -267,6 +259,14 @@ section{
    display: none;
 }
 
+.dashboard{
+   margin-top: -450px;  /* para que quede arriba y en el centro la imagen */
+}
+
+.dashboard .title{
+   color: var(--purple);
+}
+
 .dashboard .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -274,20 +274,23 @@ section{
    max-width: 1200px;
    margin:0 auto;
    align-items: flex-start;
+   margin-top: 5rem;
 }
 
 .dashboard .box-container .box{
    border-radius: .5rem;
    padding:2rem;
+   width: 100%;
+   height: 100%;
    background-color: var(--white);
    box-shadow: var(--box-shadow);
-   border:var(--border);
+  /*  border:var(--border); */
    text-align: center;
 }
 
 .dashboard .box-container .box h3{
    font-size: 5rem;
-   color:var(--black); 
+   color:var(--light-color); 
 }
 
 .dashboard .box-container .box p{
@@ -297,10 +300,15 @@ section{
    color:var(--purple);
    font-size: 2rem;
    border-radius: .5rem;
-   border:var(--border);
+  /*  border:var(--border); */
 }
 .add-products{
    margin-top: -450px;  /* para que quede arriba y en el centro la imagen */
+}
+
+.add-products .title{
+   color: var(--purple);
+   margin-bottom: 5rem;
 }
 
 .add-products form{
@@ -312,6 +320,7 @@ section{
    /* border:var(--border); */
    max-width: 50rem;
    margin:0 auto;
+   margin-bottom: 10rem;
 }
 
 .add-products form h3{
@@ -349,14 +358,16 @@ section{
 .show-products .box-container .box{
    text-align: center;
    padding:2rem;
-   border-radius: .5rem;
-   border:var(--border);
+   border-radius: .7rem;
+   /* border-radius: .5rem; */
+   /* border:var(--border); */
    box-shadow: var(--box-shadow);
    background-color: var(--white);
 }
 
 .show-products .box-container .box img{
    height: 30rem;
+   width: 100%;
 }
 
 .show-products .box-container .box .name{
@@ -369,6 +380,20 @@ section{
    padding:1rem 0;
    font-size: 2.5rem;
    color:var(--red);
+}
+.show-products .box-container .box .booton{
+   display: flex;
+   justify-content: center;
+}
+
+.show-products .box-container .box .booton .option-btn{
+   margin: 0 5px;
+   width: 50%;
+}
+
+.show-products .box-container .box .booton .delete-btn{
+   margin: 0 5px;
+   width: 50%;
 }
 
 .edit-product-form{
@@ -409,6 +434,14 @@ section{
    width: 100%;
 }
 
+.orders{
+   margin-top: -450px;  /* para que quede arriba y en el centro la imagen */
+}
+
+.orders .title{
+   color: var(--purple);
+}
+
 .orders .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, 30rem);
@@ -422,7 +455,8 @@ section{
 .orders .box-container .box{
    background-color: var(--white);
    padding:2rem;
-   border:var(--border);
+   width: 100%;
+   /* border:var(--border); */
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
 }
@@ -452,6 +486,15 @@ section{
    color:var(--black);
 }
 
+.users{
+   margin-top: -450px;  /* para que quede arriba y en el centro la imagen */
+}
+
+.users .title{
+   color: var(--purple);
+   margin-bottom: 5rem;
+}
+
 .users .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, 30rem);
@@ -460,20 +503,28 @@ section{
    max-width: 1200px;
    margin:0 auto;
    align-items: flex-start;
+
 }
 
 .users .box-container .box{
    background-color: var(--white);
    padding:2rem;
-   border:var(--border);
+   /* border:var(--border); */
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
    text-align: center;
+   width: 100%;
+   height: 100%;
+}
+.users .box-container .box .detalle{
+   text-align: left;
+   width: 100%;
+   height: 85%;
 }
 
 .users .box-container .box p{
    padding-bottom: 1.5rem;
-   font-size: 2rem;
+   font-size: 1.7rem;
    color:var(--light-color);
 }
 
@@ -483,6 +534,15 @@ section{
 
 .users .box-container .box .delete-btn{
    margin-top: 0;
+}
+
+.messages{
+   margin-top: -450px;  /* para que quede arriba y en el centro la imagen */
+}
+
+.messages .title{
+   color: var(--purple);
+   margin-bottom: 5rem;
 }
 
 .messages .box-container{
@@ -498,9 +558,11 @@ section{
 .messages .box-container .box{
    background-color: var(--white);
    padding:2rem;
-   border:var(--border);
+   /* border:var(--border); */
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
+   width: 100%;
+   height: 100%;
 }
 
 .messages .box-container .box p{
@@ -516,6 +578,19 @@ section{
 
 .messages .box-container .box .delete-btn{
    margin-top: 0;
+}
+.messages .box-container .empty{
+   border-radius: .7rem;
+   box-shadow: var(--box-shadow);
+}
+.messages .box-container .box .detalle{
+   text-align: left;
+   width: 100%;
+   height: 85%;
+}
+.messages .box-container .box .booton{
+   display: flex;
+   justify-content: center;
 }
 
 
@@ -544,6 +619,49 @@ section{
    html{
       font-size: 55%;
    }
+   .orders{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+
+   .orders .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+   }
+   .dashboard{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+    
+   }
+   .dashboard .box-container{
+      display: grid;
+      flex-direction: row;
+      justify-content: center; 
+     
+   }
+   .add-products{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+   .users{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+   .users .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+      margin: 0 5rem;
+   }
+   .messages{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+   .messages .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+   }
+   .messages .box-container .box .booton{
+      display: flex;
+      justify-content: center;
+   }
 
 }
 
@@ -570,6 +688,47 @@ section{
       margin:2rem;
       display: block;
    }
+   .orders{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+
+   .orders .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+   }
+   .dashboard{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+   .dashboard .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+   }
+   .add-products{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+   .users{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+   .users .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+      margin: 0 5rem;
+   }
+   .messages{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+   .messages .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+   }
+   .messages .box-container .box .booton{
+      display: flex;
+      justify-content: center;
+   }
 
 }
 
@@ -582,5 +741,47 @@ section{
    .title{
       font-size: 3rem;
    }
+   .orders{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
 
+   .orders .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+   }
+
+   .dashboard{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+   .dashboard .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+   }
+   .add-products{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+
+   .users{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+   .users .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+      margin: 0 4rem;
+   }
+   .messages{
+      margin-top: -400px;  /* para que quede arriba y en el centro la imagen */
+   }
+   .messages .box-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+   }
+   .messages .box-container .box .booton{
+      display: flex;
+      justify-content: center;
+   }
 }

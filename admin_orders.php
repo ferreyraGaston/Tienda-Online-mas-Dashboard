@@ -58,29 +58,29 @@ if(isset($_GET['delete'])){
       ?>
       <div class="box">
          <p> codigo de usuario : <span><?php echo $fetch_orders['user_id']; ?></span> </p>
-         <p> placed on : <span><?php echo $fetch_orders['placed_on']; ?></span> </p>
+         <p> fecha pedido : <span><?php echo $fetch_orders['placed_on']; ?></span> </p>
          <p> nombre : <span><?php echo $fetch_orders['name']; ?></span> </p>
          <p> numero : <span><?php echo $fetch_orders['number']; ?></span> </p>
          <p> email : <span><?php echo $fetch_orders['email']; ?></span> </p>
          <p> dirección : <span><?php echo $fetch_orders['address']; ?></span> </p>
          <p> total productos : <span><?php echo $fetch_orders['total_products']; ?></span> </p>
-         <p> total pricio : <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
+         <p> total precio : <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
          <p> método de pago : <span><?php echo $fetch_orders['method']; ?></span> </p>
          <form action="" method="post">
             <input type="hidden" name="order_id" value="<?php echo $fetch_orders['id']; ?>">
             <select name="update_payment">
                <option value="" selected disabled><?php echo $fetch_orders['payment_status']; ?></option>
-               <option value="pending">pendiente</option>
+               <option value="pending">en proceso</option>
                <option value="completed">completado</option>
             </select>
-            <input type="submit" value="update" name="update_order" class="option-btn">
-            <a href="admin_orders.php?delete=<?php echo $fetch_orders['id']; ?>" onclick="return confirm('delete this order?');" class="delete-btn">Eliminar</a>
+            <input type="submit" value="Actuaizar" name="update_order" class="option-btn">
+            <a href="admin_orders.php?delete=<?php echo $fetch_orders['id']; ?>" onclick="return confirm('eliminar este pedido?');" class="delete-btn">Eliminar</a>
          </form>
       </div>
       <?php
          }
       }else{
-         echo '<p class="empty">no orders placed yet!</p>';
+         echo '<p class="empty">no hay pedidos realizados todavía!</p>';
       }
       ?>
    </div>

@@ -47,11 +47,15 @@ if(isset($_GET['delete'])){
          while($fetch_users = mysqli_fetch_assoc($select_users)){
       ?>
       <div class="box">
-         <p> código de usuario : <span><?php echo $fetch_users['id']; ?></span> </p>
-         <p> nombre de usuario : <span><?php echo $fetch_users['name']; ?></span> </p>
-         <p> email : <span><?php echo $fetch_users['email']; ?></span> </p>
-         <p> tipo de usuario : <span style="color:<?php if($fetch_users['user_type'] == 'admin'){ echo 'var(--orange)'; } ?>"><?php echo $fetch_users['user_type']; ?></span> </p>
-         <a href="admin_users.php?delete=<?php echo $fetch_users['id']; ?>" onclick="return confirm('delete this user?');" class="delete-btn">eliminar usuario</a>
+         <div class="detalle">
+            <p> código  : <span><?php echo $fetch_users['id']; ?></span> </p>
+            <p> usuario : <span><?php echo $fetch_users['name']; ?></span> </p>
+            <p> email : <span><?php echo $fetch_users['email']; ?></span> </p>
+            <p> estado : <span style="color:<?php if($fetch_users['user_type'] == 'admin'){ echo 'var(--orange)'; } ?>"><?php echo $fetch_users['user_type']; ?></span> </p>
+         </div>
+         <div class="booton">
+            <a href="admin_users.php?delete=<?php echo $fetch_users['id']; ?>" onclick="return confirm('delete this user?');" class="delete-btn">eliminar usuario</a>
+         </div>       
       </div>
       <?php
          };

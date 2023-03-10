@@ -49,17 +49,21 @@ if(isset($_GET['delete'])){
       
    ?>
    <div class="box">
-      <p> codigo de usuario : <span><?php echo $fetch_message['user_id']; ?></span> </p>
-      <p> nombre : <span><?php echo $fetch_message['name']; ?></span> </p>
-      <p> numero Tel : <span><?php echo $fetch_message['number']; ?></span> </p>
-      <p> email : <span><?php echo $fetch_message['email']; ?></span> </p>
-      <p> mensajes : <span><?php echo $fetch_message['message']; ?></span> </p>
-      <a href="admin_contacts.php?delete=<?php echo $fetch_message['id']; ?>" onclick="return confirm('delete this message?');" class="delete-btn">delete message</a>
+      <div class="detalle">
+         <p> codigo de usuario : <span><?php echo $fetch_message['user_id']; ?></span> </p>
+         <p> nombre : <span><?php echo $fetch_message['name']; ?></span> </p>
+         <p> numero Tel : <span><?php echo $fetch_message['number']; ?></span> </p>
+         <p> email : <span><?php echo $fetch_message['email']; ?></span> </p>
+         <p> mensajes : <span><?php echo $fetch_message['message']; ?></span> </p>
+      </div>
+      <div class="booton">
+      <a href="admin_contacts.php?delete=<?php echo $fetch_message['id']; ?>" onclick="return confirm('eliminar este mensaje?');" class="delete-btn">borrar mensaje</a>
+      </div>
    </div>
    <?php
       };
    }else{
-      echo '<p class="empty">you have no messages!</p>';
+      echo '<p class="empty">¡No tienes mensajes!</p>';
    }
    ?>
    </div>
