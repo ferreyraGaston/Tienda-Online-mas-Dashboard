@@ -19,7 +19,7 @@
       </div>
 
       <div class="box">
-         <h3>contact info</h3>
+         <h3>Datos de contacto</h3>
          <p> <i class="fas fa-phone"></i> +54-3516627735 </p>
          <p> <i class="fas fa-phone"></i> +54-3516627737 </p>
          <p> <i class="fas fa-envelope"></i> furhen9@gmail.com </p>
@@ -27,7 +27,7 @@
       </div>
 
       <div class="box">
-         <h3>follow us</h3>
+         <h3>Síganos</h3>
          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
