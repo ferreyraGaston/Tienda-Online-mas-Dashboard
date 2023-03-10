@@ -36,13 +36,13 @@ if(isset($_POST['order_btn'])){
    $order_query = mysqli_query($conn, "SELECT * FROM `orders` WHERE name = '$name' AND number = '$number' AND email = '$email' AND method = '$method' AND address = '$address' AND total_products = '$total_products' AND total_price = '$cart_total'") or die('query failed');
 
    if($cart_total == 0){
-      $message[] = 'your cart is empty';
+      $message[] = 'Tu carrito esta vacío';
    }else{
       if(mysqli_num_rows($order_query) > 0){
-         $message[] = 'order already placed!'; 
+         $message[] = 'pedido ya realizado!'; 
       }else{
          mysqli_query($conn, "INSERT INTO `orders`(user_id, name, number, email, method, address, total_products, total_price, placed_on) VALUES('$user_id', '$name', '$number', '$email', '$method', '$address', '$total_products', '$cart_total', '$placed_on')") or die('query failed');
-         $message[] = 'order placed successfully!';
+         $message[] = '¡pedido realizado con éxito!';
          mysqli_query($conn, "DELETE FROM `cart` WHERE user_id = '$user_id'") or die('query failed');
       }
    }
@@ -89,7 +89,7 @@ if(isset($_POST['order_btn'])){
    <?php
       }
    }else{
-      echo '<p class="empty">your cart is empty</p>';
+      echo '<p class="empty">Tu carrito esta vacío</p>';
    }
    ?>
    <div class="grand-total"> total : <span>$<?php echo $grand_total; ?>/-</span> </div>
@@ -103,32 +103,32 @@ if(isset($_POST['order_btn'])){
       <div class="flex">
          <div class="inputBox">
             <span>tu nombre :</span>
-            <input type="text" name="name" required placeholder="enter your name">
+            <input type="text" name="name" required placeholder="introduzca su nombre">
          </div>
          <div class="inputBox">
             <span>tu número :</span>
-            <input type="number" name="number" required placeholder="enter your number">
+            <input type="number" name="number" required placeholder="ingrese tu numero">
          </div>
          <div class="inputBox">
             <span>tu email :</span>
-            <input type="email" name="email" required placeholder="enter your email">
+            <input type="email" name="email" required placeholder="Introduce tu correo electrónico">
          </div>
          <div class="inputBox">
             <span>   método de pago :</span>
             <select name="method">
-               <option value="cash on delivery">contra reembolso</option>
-               <option value="credit card">tarjeta de crédito</option>
-               <option value="paypal">efectivo</option>
-               <option value="paytm">cuenta corriente</option>
+               <option value="contra reembolso">contra reembolso</option>
+               <option value="tarjeta de crédito">tarjeta de crédito</option>
+               <option value="efectivo">efectivo</option>
+               <option value="cuenta corriente">cuenta corriente</option>
             </select>
          </div>
          <div class="inputBox">
-            <span>Dirección Línea 1 :</span>
-            <input type="number" min="0" name="flat" required placeholder="Ej. Parana 234.">
+            <span>Nº de casa :</span>
+            <input type="number" min="0" name="flat" required placeholder="Ej. 234.">
          </div>
          <div class="inputBox">
-            <span>Dirección Línea 2 :</span>
-            <input type="text" name="street" required placeholder="Ej. Mendoza 500">
+            <span>Dirección :</span>
+            <input type="text" name="street" required placeholder="Ej. Mendoza">
          </div>
          <div class="inputBox">
             <span>ciudad :</span>
