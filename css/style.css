@@ -682,24 +682,48 @@ section{
 }
 
 .shopping-cart .box-container{
+   margin:0 15rem;
+}
+.shopping-cart .box-container{
    max-width: 1200px;
-   margin:0 auto;
+   margin:0 2rem;
    display: grid;
-   grid-template-columns: repeat(auto-fit, 30rem);
+   grid-template-columns: auto auto auto auto; 
+   grid-template-rows: auto; 
    align-items: center;
    gap:1.5rem;
    justify-content: center;
 }
 
 .shopping-cart .box-container .box{
-   text-align: center;
-   padding:2rem;
    border-radius: .5rem;
    background-color: var(--white);
    box-shadow: var(--box-shadow);
-   position: relative;
-   border:var(--border);
+   padding:2rem;
+   text-align: center;
+   height: 90%;
+   width: 100%; 
+   position: relative; 
+   display: grid;
+   grid-template-columns: auto; 
+   grid-template-rows: 50% 40% 10%; 
+} 
+.shopping-cart .box-container .box .image{
+   height: 100%;
+   width: 100%;
+   border-radius: .5rem;
+   box-shadow: var(--box-shadow);
 }
+.shopping-cart .box-container .box .imagen{
+  margin-bottom: 1rem; 
+ }
+ .shopping-cart .box-container .box .info{
+   height: 80%;
+   display: grid;
+   grid-template-columns: auto; 
+   grid-template-rows: 80% 20%;
+}
+
 
 .shopping-cart .box-container .box .fa-times{
    position: absolute;
