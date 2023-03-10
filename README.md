@@ -53,7 +53,7 @@
 ### Tienda Online " Pedidos "
 --- 
 
-![image](hhttps://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen5.png)
+![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen5.png)
 
 --- 
 <br>
@@ -63,7 +63,7 @@
 ### Tienda Online " Carrito "
 --- 
 
-![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen6.pngG)
+![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen6.png)
 
 
 --- 
@@ -74,7 +74,7 @@
 ### Tienda Online " hacer el pedido "
 --- 
 
-![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen7.pngG)
+![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen7.png)
 
 
 --- 
