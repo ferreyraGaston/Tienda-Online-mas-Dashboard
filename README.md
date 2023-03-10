@@ -11,7 +11,7 @@
 ### Tienda Online " Inicio "
 --- 
 
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada1.JPG)
+![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen1.png)
 
 --- 
 <br>
@@ -22,7 +22,7 @@
 ### Tienda Online " Acerca de "
 --- 
 
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada2.JPG)
+![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen2.png)
 
 --- 
 <br>
@@ -32,7 +32,7 @@
 ### Tienda Online " Tienda "
 --- 
 
-![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen3.JPG)
+![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen3.png)
 
 --- 
 <br>
@@ -42,7 +42,7 @@
 ### Tienda Online " Contacto "
 --- 
 
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada4.JPG)
+![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen4.png)
 
 --- 
 
@@ -53,7 +53,7 @@
 ### Tienda Online " Pedidos "
 --- 
 
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada4.JPG)
+![image](hhttps://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen5.png)
 
 --- 
 <br>
@@ -63,7 +63,7 @@
 ### Tienda Online " Carrito "
 --- 
 
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada4.JPG)
+![image](https://github.com/gastonloco/Tenda-Online---Dashboard/blob/main/images/imagen6.pngG)
 
 
 --- 
