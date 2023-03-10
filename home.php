@@ -127,28 +127,31 @@ El equipo de HF Distribuidor trabaja desde Córdoba con una amplia red de distri
 <section class="home-contact">
 
    <div class="content">
-      <h3>Donde comprar nuestros productos</h3>
-      <p>
-         Apteka / Diagonal Ica 594 - Bº General Bustos - Cordoba / Tel. (0351) - 4722874
-         Bornard Argovic / Av. Alem 3701 - Bº Alem - Cordoba / Tel. (0351) - 4794239
-         Calle Carina / Av. Vucetich 6895 - Bº Ituzaingo - Cordoba / Tel. (0351) - 4977292
-         Carini / Presidente Italia 537 - Bº Malvinas Argentinas - Cordoba / Tel. (0351) - 4997350
-         Circulo de Suboficiales y Agentes Asociacion Mutual Policia de Cordoba / Santa Rosa 974 - Bº Centro - Cordoba / Tel. (0351) - 4210285
-         Di Carlo S.R.L. / 24 de Septiembre 2415 - Bº Yapeyu - Cordoba / Tel. (0351) - 4528801
-         Di Farma S.R.L. / Altolaguirre 2660 - Bº Yofre - Cordoba / Tel. (0351) - 4868008
-         Di Farma S.R.L. / Altolaguirre 2264 - Bº Yofre - Cordoba / Tel. (0351) - 4530850
-         Far Ma Max / Arturo Capdevila 1855 - Cordoba / Tel. (0351) - 4789555
-         Farma Norte / Av. japon Esq. Juan B. Justo - Cordoba / Tel. (0351) - 4994368
-         Farma Social / Esquiu 111 - Bº alto General Paz - Cordoba / Tel. (0351) - 4522141
-         Farma Social / Sucre 174 - Bº Centro - Cordoba / Tel. (0351) - 4211523
-         Farma Yorfre / Altolaguirre 2112 - Bº Yofre Norte - Cordoba / Tel. (0351) - 4516516
-         Farmacia Abc / Alvear 298 - Bº Centro - Cordoba / Tel. (0351) - 4219407
-         Farmacia Abril / Av. Armada Argentina 46 - Bº Las Flores - Cordoba / Tel. (0351) - 4619408
-         Farmacia Aefe / Viamonte 6 - Bº Junior - Cordoba / Tel. (0351) - 4516981
-         Farmacia Alemana / San Jeronimo 587 - Bº Centro - Cordoba / Tel. (0351) - 4227984
-         Farmacia Alvear / Alvear esq. Sarmiento - Bº Centro - Cordoba / Tel. (0351) - 4210024
-         Farmacia Amadeo / Av. Sabattini 2630 - Bº Gral Urquiza - Cordoba / Tel. (0351) - 4583760
-</p>
+      <h3>Farmacias Realacionadas</h3>
+
+      <div class="contenedor">
+         <div class="contenedor1">
+            <ul>
+               <li>FCIA ITATI|| PRINGLES 668-CHARATA. CHACO</li>
+               <li>FCIA ITATI S.R.L || SAN MARTIN 1300- SAENZ PENA, CHACO</li>
+               <li>FCIA LAVALLE|| PRINGLES 668-CHARATA. CHACO</li>
+               <li>FCIA OLSINA || SAVEDRA 1290- TOSTADO, SANTA FE</li>
+               <li>FCIA SAN AGUSTIN || CALLE 33 y 38 LOC.1 EL ARRIERO-R. SAENZ PEÑA, CHACO</li>
+            </ul>
+
+         </div>
+         <div class="contenedor2">
+         <ul>
+               <li>FCIA VITAMINA|| RIVADAVIA 347-BANDERA. SGO DEL EST</li>
+               <li>FLAJA S.R.L. || ABSALON ROJAS 177. SGO DEL EST</li>
+               <li>GIANMA SRL|| AV 9 DE JULIO 269- ANATUYA, SGO DEL EST</li>
+               <li>LAZOS SRL || SAN MARTIN 37- SUMAMPA, STGO DEL ESTERO</li>
+               <li>MONTESI SHEILA || AV. 25 DE MAYO 1005- VILLA ANGELA, CHACO</li>
+            </ul>
+         </div>
+
+      </div>
+
       <a href="contact.php" class="white-btn">Contacta con nosotros</a>
    </div>
 
